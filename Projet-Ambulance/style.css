@@ -1,0 +1,1520 @@
+.ambulances-de {
+  background-color: transparent;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.ambulances-de .div {
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 1920px;
+  height: 6164px;
+  position: relative;
+}
+
+.ambulances-de .overlap {
+  position: absolute;
+  width: 1882px;
+  height: 659px;
+  top: 2887px;
+  left: 16px;
+}
+
+.ambulances-de .group {
+  position: absolute;
+  width: 1130px;
+  height: 197px;
+  top: 462px;
+  left: 752px;
+}
+
+.ambulances-de .rectangle {
+  position: absolute;
+  width: 1882px;
+  height: 436px;
+  top: 55px;
+  left: 0;
+  background-color: #174381;
+  border-radius: 84.34px;
+}
+
+.ambulances-de .img {
+  position: absolute;
+  width: 1532px;
+  height: 435px;
+  top: 56px;
+  left: 0;
+  border-radius: 84.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .rectangle-2 {
+  position: absolute;
+  width: 1044px;
+  height: 491px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .overlap-wrapper {
+  position: absolute;
+  width: 286px;
+  height: 71px;
+  top: 525px;
+  left: 1584px;
+}
+
+.ambulances-de .overlap-group {
+  position: relative;
+  width: 284px;
+  height: 71px;
+}
+
+.ambulances-de .rectangle-3 {
+  width: 284px;
+  height: 66px;
+  top: 3px;
+  position: absolute;
+  left: 0;
+  background-color: #03aeec;
+  border-radius: 84.34px;
+  transform: rotate(-180deg);
+}
+
+.ambulances-de .contactez-nous {
+  position: absolute;
+  width: 180px;
+  height: 71px;
+  top: 0;
+  left: 64px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 21.1px;
+  letter-spacing: 0;
+  line-height: 21.1px;
+}
+
+.ambulances-de .group-2 {
+  position: absolute;
+  width: 647px;
+  height: 104px;
+  top: 274px;
+  left: 1000px;
+}
+
+.ambulances-de .text-wrapper {
+  position: absolute;
+  height: 36px;
+  top: 0;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .p {
+  position: absolute;
+  width: 643px;
+  height: 60px;
+  top: 44px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 21.9px;
+  letter-spacing: 0;
+  line-height: 29.5px;
+}
+
+.ambulances-de .disponibilit {
+  position: absolute;
+  width: 865px;
+  height: 134px;
+  top: 116px;
+  left: 1000px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 61.5px;
+  letter-spacing: -1.85px;
+  line-height: 73.8px;
+}
+
+.ambulances-de .span {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -1.14px;
+}
+
+.ambulances-de .text-wrapper-2 {
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  color: #03aeec;
+  font-size: 111.5px;
+  letter-spacing: -3.73px;
+  line-height: 133.8px;
+}
+
+.ambulances-de .text-wrapper-3 {
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 111.5px;
+  letter-spacing: -3.73px;
+  line-height: 133.8px;
+}
+
+.ambulances-de .overlap-group-wrapper {
+  position: absolute;
+  width: 522px;
+  height: 72px;
+  top: 56px;
+  left: 663px;
+}
+
+.ambulances-de .call-wrapper {
+  position: relative;
+  width: 520px;
+  height: 72px;
+  background-image: url(https://c.animaapp.com/me1aixyrRc0sPK/img/subtract-1.svg);
+  background-size: 100% 100%;
+}
+
+.ambulances-de .call {
+  position: absolute;
+  height: 55px;
+  top: 7px;
+  left: 15px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 43.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-4 {
+  font-weight: 700;
+}
+
+.ambulances-de .text-wrapper-5 {
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 43.6px;
+  letter-spacing: 0;
+}
+
+.ambulances-de .overlap-2 {
+  position: absolute;
+  width: 1843px;
+  height: 995px;
+  top: 1796px;
+  left: 55px;
+}
+
+.ambulances-de .rectangle-4 {
+  position: absolute;
+  width: 921px;
+  height: 957px;
+  top: 38px;
+  left: 922px;
+  border-radius: 84.34px 0px 84.34px 84.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .rectangle-5 {
+  position: absolute;
+  width: 1843px;
+  height: 360px;
+  top: 561px;
+  left: 0;
+}
+
+.ambulances-de .rectangle-6 {
+  position: absolute;
+  width: 919px;
+  height: 360px;
+  top: 561px;
+  left: 922px;
+  border-radius: 0px 84.34px 84.34px 84.34px;
+  background: linear-gradient(
+    1deg,
+    rgba(10, 50, 110, 1) 0%,
+    rgba(28, 84, 165, 0) 100%
+  );
+}
+
+.ambulances-de .isolation-mode {
+  position: absolute;
+  width: 713px;
+  height: 701px;
+  top: 0;
+  left: 88px;
+}
+
+.ambulances-de .overlap-3 {
+  position: relative;
+  width: 712px;
+  height: 702px;
+  top: -1px;
+}
+
+.ambulances-de .vector {
+  position: absolute;
+  width: 712px;
+  height: 468px;
+  top: 234px;
+  left: 0;
+}
+
+.ambulances-de .vector-2 {
+  position: absolute;
+  width: 712px;
+  height: 468px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .group-3 {
+  position: absolute;
+  width: 186px;
+  height: 93px;
+  top: 39px;
+  left: 281px;
+}
+
+.ambulances-de .text-wrapper-6 {
+  position: absolute;
+  width: 182px;
+  top: 0;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 54.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-7 {
+  position: absolute;
+  width: 144px;
+  top: 74px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .div-wrapper {
+  position: absolute;
+  width: 179px;
+  height: 85px;
+  top: 187px;
+  left: 56px;
+}
+
+.ambulances-de .overlap-group-2 {
+  position: relative;
+  width: 175px;
+  height: 85px;
+}
+
+.ambulances-de .text-wrapper-8 {
+  position: absolute;
+  width: 144px;
+  top: 0;
+  left: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  font-size: 54.2px;
+  line-height: normal;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.ambulances-de .text-wrapper-9 {
+  position: absolute;
+  width: 158px;
+  top: 66px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-10 {
+  position: absolute;
+  width: 144px;
+  top: 289px;
+  left: 319px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 54.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-11 {
+  position: absolute;
+  width: 234px;
+  top: 361px;
+  left: 237px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ambulances-de .group-wrapper {
+  position: absolute;
+  width: 208px;
+  height: 84px;
+  top: 186px;
+  left: 473px;
+}
+
+.ambulances-de .group-4 {
+  width: 212px;
+  height: 84px;
+}
+
+.ambulances-de .overlap-group-3 {
+  position: relative;
+  width: 208px;
+  height: 84px;
+}
+
+.ambulances-de .text-wrapper-12 {
+  position: absolute;
+  width: 191px;
+  top: 0;
+  left: 17px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 54.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-13 {
+  position: absolute;
+  width: 179px;
+  top: 65px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15.2px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .heading {
+  position: absolute;
+  width: 152px;
+  height: 70px;
+  top: 612px;
+  left: 280px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 70px;
+  letter-spacing: -3.50px;
+  line-height: 47.8px;
+}
+
+.ambulances-de .text-wrapper-14 {
+  position: absolute;
+  width: 155px;
+  height: 28px;
+  top: 575px;
+  left: 280px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 29.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.3px;
+}
+
+.ambulances-de .text-wrapper-15 {
+  position: absolute;
+  width: 810px;
+  top: 582px;
+  left: 720px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #eeedff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 46.6px;
+}
+
+.ambulances-de .overlap-4 {
+  position: absolute;
+  width: 1882px;
+  height: 995px;
+  top: 171px;
+  left: 16px;
+}
+
+.ambulances-de .rectangle-7 {
+  position: absolute;
+  width: 1882px;
+  height: 866px;
+  top: 0;
+  left: 0;
+  background-color: #012253e6;
+  border-radius: 84.34px;
+}
+
+.ambulances-de .rectangle-8 {
+  position: absolute;
+  width: 1882px;
+  height: 864px;
+  top: 0;
+  left: 0;
+  border-radius: 84.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .rectangle-9 {
+  position: absolute;
+  width: 1044px;
+  height: 995px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .subtract {
+  position: absolute;
+  width: 863px;
+  height: 90px;
+  top: 0;
+  left: 110px;
+}
+
+.ambulances-de .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.32px;
+  position: absolute;
+  top: 8px;
+  left: 438px;
+}
+
+.ambulances-de .call-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.44px;
+  font-size: 60.3px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-16 {
+  font-weight: 300;
+}
+
+.ambulances-de .text-wrapper-17 {
+  position: absolute;
+  width: 412px;
+  top: 172px;
+  left: 171px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+}
+
+.ambulances-de .text-wrapper-18 {
+  position: absolute;
+  width: 830px;
+  top: 298px;
+  left: 158px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 89.6px;
+  letter-spacing: -0.90px;
+  line-height: 90.5px;
+}
+
+.ambulances-de .text-wrapper-19 {
+  position: absolute;
+  width: 620px;
+  top: 525px;
+  left: 158px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #03aeec;
+  font-size: 47.8px;
+  letter-spacing: -0.48px;
+  line-height: 48.2px;
+}
+
+.ambulances-de .overlap-5 {
+  position: absolute;
+  width: 1882px;
+  height: 2616px;
+  top: 3622px;
+  left: 16px;
+}
+
+.ambulances-de .overlap-6 {
+  position: absolute;
+  width: 1882px;
+  height: 2616px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .rectangle-10 {
+  position: absolute;
+  width: 912px;
+  height: 1878px;
+  top: 537px;
+  left: 485px;
+  border-radius: 84.34px;
+  transform: rotate(90deg);
+  background: linear-gradient(
+    96deg,
+    rgba(5, 44, 100, 1) 0%,
+    rgba(42, 115, 221, 0) 100%
+  );
+}
+
+.ambulances-de .rectangle-11 {
+  position: absolute;
+  width: 454px;
+  height: 1877px;
+  top: 1152px;
+  left: 716px;
+  border-radius: 84.34px;
+  transform: rotate(90deg);
+  background: linear-gradient(
+    95deg,
+    rgba(5, 44, 100, 1) 0%,
+    rgba(42, 115, 221, 0) 100%
+  );
+}
+
+.ambulances-de .rectangle-12 {
+  position: absolute;
+  width: 718px;
+  height: 788px;
+  top: 1863px;
+  left: 1092px;
+  border-radius: 45.34px;
+  transform: rotate(90deg);
+  background: linear-gradient(
+    96deg,
+    rgba(3, 174, 236, 1) 0%,
+    rgba(42, 115, 221, 0) 100%
+  );
+}
+
+.ambulances-de .nos-services {
+  position: absolute;
+  width: 374px;
+  height: 142px;
+  top: 79px;
+  left: 151px;
+  font-family: "Gilroy-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 86px;
+  letter-spacing: -2.58px;
+  line-height: 71.4px;
+}
+
+.ambulances-de .text-wrapper-20 {
+  position: absolute;
+  width: 399px;
+  height: 108px;
+  top: 1208px;
+  left: 167px;
+  font-family: "Gilroy-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 56.5px;
+  letter-spacing: -1.69px;
+  line-height: 54.2px;
+}
+
+.ambulances-de .group-5 {
+  position: absolute;
+  width: 1623px;
+  height: 619px;
+  top: 163px;
+  left: 151px;
+}
+
+.ambulances-de .overlap-7 {
+  position: absolute;
+  width: 349px;
+  height: 507px;
+  top: 112px;
+  left: 381px;
+  background-color: #3367b2;
+  border-radius: 0px 19.34px 19.34px 19.34px;
+}
+
+.ambulances-de .layer {
+  position: absolute;
+  width: 181px;
+  height: 171px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .text-wrapper-21 {
+  position: absolute;
+  width: 237px;
+  top: 200px;
+  left: 35px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30.9px;
+  letter-spacing: 0;
+  line-height: 37.1px;
+}
+
+.ambulances-de .text-wrapper-22 {
+  position: absolute;
+  width: 281px;
+  top: 324px;
+  left: 35px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.ambulances-de .overlap-8 {
+  position: absolute;
+  width: 902px;
+  height: 587px;
+  top: -30px;
+  left: 759px;
+}
+
+.ambulances-de .rectangle-13 {
+  position: absolute;
+  width: 681px;
+  height: 587px;
+  top: 0;
+  left: 221px;
+  border-radius: 0px 19.34px 29.34px 19.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .rectangle-14 {
+  position: absolute;
+  width: 368px;
+  height: 507px;
+  top: 30px;
+  left: 0;
+  background-color: #f8f8f8;
+  border-radius: 0px 19.34px 29.34px 19.34px;
+  box-shadow: 10px 10px 40px #00000033;
+}
+
+.ambulances-de .layer-2 {
+  position: absolute;
+  width: 181px;
+  height: 171px;
+  top: 30px;
+  left: 0;
+}
+
+.ambulances-de .text-wrapper-23 {
+  position: absolute;
+  width: 228px;
+  top: 247px;
+  left: 43px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #1b1b1b;
+  font-size: 30.9px;
+  letter-spacing: 0;
+  line-height: 37.1px;
+}
+
+.ambulances-de .text-wrapper-24 {
+  position: absolute;
+  width: 298px;
+  top: 342px;
+  left: 43px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #707070;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.ambulances-de .overlap-9 {
+  position: absolute;
+  width: 353px;
+  height: 507px;
+  top: 112px;
+  left: 0;
+  background-color: #3367b2;
+  border-radius: 0px 19.34px 19.34px 19.34px;
+}
+
+.ambulances-de .mask-group {
+  position: absolute;
+  width: 189px;
+  height: 190px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .text-wrapper-25 {
+  position: absolute;
+  width: 257px;
+  top: 200px;
+  left: 39px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30.9px;
+  letter-spacing: 0;
+  line-height: 37.1px;
+}
+
+.ambulances-de .text-wrapper-26 {
+  position: absolute;
+  width: 274px;
+  top: 324px;
+  left: 38px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28.8px;
+}
+
+.ambulances-de .subtract-2 {
+  position: absolute;
+  width: 260px;
+  height: 39px;
+  top: 618px;
+  left: 1000px;
+}
+
+.ambulances-de .group-6 {
+  position: absolute;
+  width: 183px;
+  height: 21px;
+  top: 761px;
+  left: 1571px;
+}
+
+.ambulances-de .rectangle-15 {
+  position: absolute;
+  width: 131px;
+  height: 21px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 19.09px;
+}
+
+.ambulances-de .rectangle-16 {
+  position: absolute;
+  width: 25px;
+  height: 21px;
+  top: 0;
+  left: 136px;
+  background-color: #ffffff;
+  border-radius: 19.09px;
+}
+
+.ambulances-de .rectangle-17 {
+  position: absolute;
+  width: 17px;
+  height: 21px;
+  top: 0;
+  left: 166px;
+  background-color: #03aeec;
+  border-radius: 19.09px;
+}
+
+.ambulances-de .read-more {
+  position: absolute;
+  width: 180px;
+  height: 71px;
+  top: 600px;
+  left: 1161px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14.1px;
+  letter-spacing: 0;
+  line-height: 14.1px;
+}
+
+.ambulances-de .group-7 {
+  position: absolute;
+  width: 1242px;
+  height: 386px;
+  top: 1094px;
+  left: 577px;
+}
+
+.ambulances-de .group-8 {
+  position: absolute;
+  width: 685px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 58.07px;
+}
+
+.ambulances-de .group-9 {
+  position: relative;
+  width: 608px;
+  height: 291px;
+  top: 49px;
+  left: 56px;
+}
+
+.ambulances-de .l-quipe-d-ambulances {
+  position: absolute;
+  width: 604px;
+  top: 75px;
+  left: -1px;
+  -webkit-text-stroke: 0.97px #1c1c1c;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #6480a9;
+  font-size: 17.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-27 {
+  position: absolute;
+  width: 389px;
+  top: 8px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #3367b2;
+  font-size: 25.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .format-quote {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 536px;
+}
+
+.ambulances-de .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 19.36px;
+  position: absolute;
+  top: 238px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 58.07px;
+}
+
+.ambulances-de .image {
+  position: relative;
+  width: 53.24px;
+  height: 53.24px;
+  object-fit: cover;
+}
+
+.ambulances-de .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 128.73px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.ambulances-de .text-wrapper-28 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.97px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #151515;
+  font-size: 19.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-29 {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #03aeec;
+  font-size: 15.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .group-10 {
+  position: absolute;
+  width: 517px;
+  height: 291px;
+  top: 48px;
+  left: 725px;
+  background-color: #ffffff;
+  border-radius: 43.78px;
+  opacity: 0.7;
+}
+
+.ambulances-de .group-11 {
+  position: relative;
+  width: 459px;
+  height: 220px;
+  top: 37px;
+  left: 42px;
+}
+
+.ambulances-de .je-suis-extr-mement {
+  position: absolute;
+  width: 455px;
+  top: 51px;
+  left: -1px;
+  -webkit-text-stroke: 0.73px #1c1c1c;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #6480a9;
+  font-size: 13.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-30 {
+  position: absolute;
+  width: 346px;
+  top: 6px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #3367b2;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+
+.ambulances-de .format-quote-2 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 0;
+  left: 405px;
+}
+
+.ambulances-de .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 14.59px;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 43.78px;
+}
+
+.ambulances-de .image-2 {
+  position: relative;
+  width: 40.13px;
+  height: 40.13px;
+  object-fit: cover;
+}
+
+.ambulances-de .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 97.05px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.ambulances-de .text-wrapper-31 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.73px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #151515;
+  font-size: 14.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-32 {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #03aeec;
+  font-size: 11.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ambulances-de .contactez-nous-2 {
+  position: absolute;
+  width: 586px;
+  height: 178px;
+  top: 1970px;
+  left: 512px;
+}
+
+.ambulances-de .overlap-10 {
+  position: absolute;
+  width: 584px;
+  height: 96px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 420px;
+  height: 30px;
+  align-items: center;
+  gap: 18.39px;
+  position: absolute;
+  top: 66px;
+  left: 0;
+  border-radius: 7.88px;
+}
+
+.ambulances-de .icon {
+  position: relative;
+  width: 23.65px;
+  height: 23.65px;
+}
+
+.ambulances-de .text-button {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  font-size: 19.7px;
+  line-height: 29.6px;
+  white-space: nowrap;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.ambulances-de .heading-2 {
+  position: absolute;
+  width: 584px;
+  height: 68px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #f8f8f8;
+  font-size: 33.4px;
+  letter-spacing: 1.33px;
+  line-height: 91.1px;
+  white-space: nowrap;
+}
+
+.ambulances-de .overlap-11 {
+  position: absolute;
+  width: 412px;
+  height: 78px;
+  top: 100px;
+  left: 0;
+}
+
+.ambulances-de .button-2 {
+  width: 339px;
+  height: 30px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 18.39px;
+  position: absolute;
+  left: 0;
+  border-radius: 7.88px;
+}
+
+.ambulances-de .button-3 {
+  width: 412px;
+  height: 59px;
+  top: 19px;
+  display: flex;
+  align-items: center;
+  gap: 18.39px;
+  position: absolute;
+  left: 0;
+  border-radius: 7.88px;
+}
+
+.ambulances-de .text-button-2 {
+  position: relative;
+  width: 461px;
+  margin-right: -91.09px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 19.7px;
+  letter-spacing: 0;
+  line-height: 29.6px;
+}
+
+.ambulances-de .text-wrapper-33 {
+  position: absolute;
+  width: 595px;
+  height: 158px;
+  top: 1964px;
+  left: 1137px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 66.1px;
+  letter-spacing: -1.98px;
+  line-height: 79.3px;
+}
+
+.ambulances-de .subtract-3 {
+  position: absolute;
+  width: 648px;
+  height: 90px;
+  top: 2167px;
+  left: 1123px;
+}
+
+.ambulances-de .layer-3 {
+  position: absolute;
+  width: 80px;
+  height: 85px;
+  top: 1974px;
+  left: 1692px;
+}
+
+.ambulances-de .text-wrapper-34 {
+  position: absolute;
+  top: 2341px;
+  left: 822px;
+  font-family: "Sharp Sans No1 Book-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.ambulances-de .call-3 {
+  position: absolute;
+  height: 68px;
+  top: 2175px;
+  left: 1142px;
+  font-size: 54.3px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .text-wrapper-35 {
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 54.3px;
+  letter-spacing: 0;
+}
+
+.ambulances-de .group-12 {
+  position: absolute;
+  width: 183px;
+  height: 21px;
+  top: 1539px;
+  left: 1572px;
+}
+
+.ambulances-de .layer-4 {
+  position: absolute;
+  width: 348px;
+  height: 94px;
+  top: 1981px;
+  left: 107px;
+}
+
+.ambulances-de .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 37px;
+  position: absolute;
+  top: 53px;
+  left: 1609px;
+  background-color: #2a72dc;
+  border-radius: 68px;
+}
+
+.ambulances-de .text-wrapper-36 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.ambulances-de .frame-7 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 14.68px;
+  padding: 14.68px;
+  position: absolute;
+  top: 49px;
+  left: 950px;
+}
+
+.ambulances-de .text-wrapper-37 {
+  position: relative;
+  width: fit-content;
+  margin-top: -4.40px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #3367b2;
+  font-size: 23.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 14.68px;
+  padding: 14.68px;
+  position: absolute;
+  top: 49px;
+  left: 1136px;
+}
+
+.ambulances-de .text-wrapper-38 {
+  position: relative;
+  width: fit-content;
+  margin-top: -4.40px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #03aeec;
+  font-size: 23.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4.4px;
+  position: absolute;
+  top: 64px;
+  left: 1357px;
+}
+
+.ambulances-de .text-wrapper-39 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.47px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #03aeec;
+  font-size: 23.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .d-couvrez-notre {
+  position: absolute;
+  width: 590px;
+  top: 1286px;
+  left: 208px;
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #797989;
+  font-size: 51px;
+  letter-spacing: 0;
+  line-height: 55.5px;
+}
+
+.ambulances-de .icon-2 {
+  left: 917px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 1289px;
+}
+
+.ambulances-de .icon-3 {
+  left: 120px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 1289px;
+}
+
+.ambulances-de .overlap-12 {
+  position: absolute;
+  width: 1130px;
+  height: 197px;
+  top: 1523px;
+  left: 743px;
+  background-image: url(assets/hover-cardio.svg);
+  background-size: 100% 100%;
+}
+
+.ambulances-de .group-13 {
+  position: relative;
+  width: 250px;
+  height: 71px;
+  top: 63px;
+  left: 858px;
+}
+
+.ambulances-de .overlap-13 {
+  position: relative;
+  width: 248px;
+  height: 71px;
+}
+
+.ambulances-de .rectangle-18 {
+  width: 248px;
+  height: 48px;
+  top: 11px;
+  position: absolute;
+  left: 0;
+  background-color: #03aeec;
+  border-radius: 84.34px;
+  transform: rotate(-180deg);
+}
+
+.ambulances-de .en-savoir-plus {
+  position: absolute;
+  width: 144px;
+  height: 71px;
+  top: 0;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 70.6px;
+  white-space: nowrap;
+}
+
+.ambulances-de .overlap-14 {
+  position: absolute;
+  width: 823px;
+  height: 249px;
+  top: 1253px;
+  left: 996px;
+}
+
+.ambulances-de .depuis-plusieurs-ann {
+  position: absolute;
+  width: 823px;
+  height: 140px;
+  top: 109px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #434343;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.ambulances-de .heading-3 {
+  position: absolute;
+  width: 271px;
+  height: 111px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .text-wrapper-40 {
+  position: absolute;
+  width: 302px;
+  height: 111px;
+  top: -1px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #3367b2;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 55.2px;
+}
+
+.ambulances-de .layer-5 {
+  position: absolute;
+  width: 473px;
+  height: 128px;
+  top: 24px;
+  left: 174px;
+}
