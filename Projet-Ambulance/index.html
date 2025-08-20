@@ -5,11 +5,47 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="scroll-indicator"></div>
     <div class="ambulances-de">
       <div class="div">
-        <div class="overlap">
+        <!-- HEADER SECTION -->
+        <header class="header-section">
+          <div class="header-container">
+            <div class="logo-container">
+              <img class="logo" src="assets/Logo.svg" alt="Ambulances de Villejuif" />
+            </div>
+            <nav class="navigation">
+              <div class="nav-item">
+                <a href="#a-propos" class="nav-link">
+                  <div class="nav-text">A propos</div>
+                </a>
+              </div>
+              <div class="nav-item">
+                <a href="#services" class="nav-link">
+                  <div class="nav-text">Nos services</div>
+                </a>
+              </div>
+              <div class="nav-item">
+                <a href="#rectangle-10" class="nav-link">
+                  <div class="nav-text">Témoignages</div>
+                </a>
+              </div>
+              <div class="nav-item contact-btn">
+                <a href="#contact" class="nav-link">
+                  <div class="nav-text">Contact</div>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </header>
+        
+        <!-- AVAILABILITY SECTION -->
+        <section class="availability-section">
           <img class="group" src="assets/hover-cardio.svg" />
           <div class="rectangle"></div>
           <img class="img" src="assets/ambulance1.png" />
@@ -37,13 +73,14 @@
             <div class="call-wrapper">
               <p class="call">
                 <span class="text-wrapper-4">&nbsp;</span>
-                <span class="text-wrapper-5">Call</span>
+                <img class="phone-icon" src="assets/phone-icon.svg" alt="Téléphone" />
                 <span class="text-wrapper-4"> 01 43 96 15 15</span>
               </p>
             </div>
           </div>
-        </div>
-        <div class="overlap-2">
+        </section>
+        <!-- STATISTICS SECTION -->
+        <section class="statistics-section">
           <img class="rectangle-4" src="assets/Docteur.png" />
           <img class="rectangle-5" src="assets/Degr-vertical.svg" />
           <div class="rectangle-6"></div>
@@ -76,101 +113,133 @@
             </div>
           </div>
           <p class="text-wrapper-15">Même en pleine nuit, une lumière reste allumée pour vous</p>
-        </div>
-        <div class="overlap-4">
-          <div class="rectangle-7"></div>
-          <img class="rectangle-8" src="assets/Hero1.png" />
-          <img class="rectangle-9" src="assets/Deg-horizontal.png" />
-          <img class="subtract" src="assets/call-green.svg" />
-          <div class="frame">
-            <p class="call-2">
-              <span class="text-wrapper-4">&nbsp;</span>
-              <span class="text-wrapper-16">Call</span>
-              <span class="text-wrapper-4"> 01 43 96 15 15</span>
-            </p>
+        </section>
+        <!-- HERO SECTION -->
+        <section class="hero-section">
+          <div class="hero-background">
+            <div class="hero-content">
+              <div class="hero-call-button">
+                <img class="call-button-bg" src="assets/call-green.svg" alt="Bouton d'appel" />
+                <div class="call-button-content">
+                  <p class="call-text">
+                    <span class="text-spacer">&nbsp;</span>
+                    <img class="phone-icon" src="assets/phone-icon.svg" alt="Téléphone" />
+                    <span class="text-spacer"> 01 43 96 15 15</span>
+                  </p>
+                </div>
+              </div>
+              
+              <div class="hero-text-content">
+                <div class="hero-subtitle">Best Medical Service</div>
+                <h1 class="hero-title">Derrière chaque urgence, une vie.</h1>
+                <p class="hero-description">Derrière chaque vie, notre engagement.</p>
+              </div>
+            </div>
+            <div class="hero-bg-overlay"></div>
+            <img class="hero-bg-image" src="assets/Hero1.png" alt="Ambulance en intervention" />
+            <img class="hero-bg-pattern" src="assets/Deg-horizontal.png" alt="Motif décoratif" />
           </div>
-          <div class="text-wrapper-17">Best Medical Service</div>
-          <p class="text-wrapper-18">Derrière chaque urgence, une vie.</p>
-          <p class="text-wrapper-19">Derrière chaque vie, notre engagement.</p>
-        </div>
+          
+          
+        </section>
         <div class="overlap-5">
           <div class="overlap-6">
             <div class="rectangle-7"></div>
             <img class="rectangle-8" src="assets/ambulance-1.png" />
-            <div class="rectangle-10"></div>
-            <div class="rectangle-11"></div>
-            <div class="rectangle-12"></div>
-            <div class="nos-services">Nos <br />Services</div>
-            <div class="text-wrapper-20">Témoignages Médicaux</div>
+            <img class="rectangle-10" id="rectangle-10" src="assets/Rectangle-ver.png" />
+            <img class="rectangle-11" src="assets/contact-bleu.png" />
+            <img class="rectangle-12" src="assets/contact-bleuciel.png" />
+            <div class="nos-services" id="services">Nos <br />Services</div>
+            <div class="text-wrapper-20" id="temoignages">Témoignages Médicaux</div>
             <div class="group-5">
-              <div class="overlap-7">
-                <img class="layer" src="assets/Layer_1.png" />
+              <div class="overlap-7 service-card" data-service="transfert-medical">
+                <img class="rectangle-13 service-image" src="assets/docteur3.png" />
+                <div class="rectangle-14 service-content"></div>
+                <img class="layer-2" src="assets/Layer_1.png" />
                 <div class="text-wrapper-21">Transfert Médical</div>
                 <p class="text-wrapper-22">Transferts entre hôpitaux ou vers des structures médicales spécialisées.</p>
               </div>
-              <div class="overlap-8">
-                <img class="rectangle-13" src="assets/Docteur2.png" />
-                <div class="rectangle-14"></div>
+              <div class="overlap-8 service-card" data-service="assistance-medicale">
+                <img class="rectangle-13 service-image" src="assets/docteur3.png" />
+                <div class="rectangle-14 service-content"></div>
                 <img class="layer-2" src="assets/Layer_1.png" />
                 <div class="text-wrapper-23">Assistance Médicale</div>
                 <p class="text-wrapper-24">
-                  Accompagnement sur mesure selon l’état de Santé et les besoins du Patient.
+                  Accompagnement sur mesure selon l'état de Santé et les besoins du Patient.
                 </p>
               </div>
-              <div class="overlap-9">
-                <div class="mask-group">
-                  <img class="layer" src="assets/Layer_1.png" />
-                  <img class="mask-group" />
-                </div>
+              <div class="overlap-9 service-card" data-service="transport-ambulance">
+                <img class="rectangle-13 service-image" src="assets/docteur3.png" />
+                <div class="rectangle-14 service-content"></div>
+                <img class="layer-2" src="assets/Layer_1.png" />
                 <div class="text-wrapper-25">Transport en Ambulance</div>
-                <p class="text-wrapper-26">Déplacements allongés encadrés par des professionnels,en toute sécurité.</p>
+                <p class="text-wrapper-22">Déplacements allongés encadrés par des professionnels,en toute sécurité.</p>
               </div>
+        
+              
             </div>
             <img class="subtract-2" src="assets/layer-bleu.svg" />
             <div class="group-6">
-              <div class="rectangle-15"></div>
-              <div class="rectangle-16"></div>
-              <div class="rectangle-17"></div>
+              <div class="rectangle-15 indicator" data-indicator="transfert-medical"></div>
+              <div class="rectangle-16 indicator" data-indicator="assistance-medicale"></div>
+              <div class="rectangle-17 indicator" data-indicator="transport-ambulance"></div>
             </div>
             <div class="read-more">Read More</div>
             <div class="group-7">
-              <div class="group-8">
-                <div class="group-9">
-                  <p class="l-quipe-d-ambulances">
-                    “L’équipe d’Ambulances de Villejuif a su nous rassurer dans une situation stressante. <br />Leur
+              <div class="testimonial-card front-position position-left" data-testimonial="0">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">
+                    "L'équipe d'Ambulances de Villejuif a su nous rassurer dans une situation stressante. <br />Leur
                     rapidité et leur professionnalisme ont fait toute la différence. Merci pour votre <br />dévouement
-                    !”
+                    !"
                   </p>
-                  <div class="text-wrapper-27">Merci Pour Votre Dévouement</div>
-                  <img class="format-quote" src="assets/format_quote.png"/>
-                  <div class="frame-2">
-                    <img class="image" src="assets/image.png" />
-                    <div class="frame-3">
-                      <div class="text-wrapper-28">James T</div>
-                      <div class="text-wrapper-29">Music Enthusiast</div>
+                  <div class="testimonial-title">Merci Pour Votre Dévouement</div>
+                  <img class="quote-icon" src="assets/format_quote.png"/>
+                  <div class="author-frame">
+                    <img class="author-avatar" src="assets/image.png" />
+                    <div class="author-info">
+                      <div class="author-name">James T</div>
+                      <div class="author-role">Music Enthusiast</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="group-10">
-                <div class="group-11">
-                  <p class="je-suis-extr-mement">
-                    “Je suis extrêmement satisfait du service des Ambulances de Villejuif. L’équipe a été rapide,
-                    <br />professionnelle et très attentionnée. Je recommande vivement leurs services.”
+              <div class="testimonial-card back-position position-right" data-testimonial="1">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">
+                    "Je suis extrêmement satisfait du service des Ambulances de Villejuif. L'équipe a été rapide,
+                    <br />professionnelle et très attentionnée. Je recommande vivement leurs services."
                   </p>
-                  <p class="text-wrapper-30">Un Service Impeccable et Fiable</p>
-                  <img class="format-quote-2" src="assets/format_quote(1).png" />
-                  <div class="frame-4">
-                    <img class="image-2" src="assets/image(1).png" />
-                    <div class="frame-5">
-                      <div class="text-wrapper-31">James T</div>
-                      <div class="text-wrapper-32">Music Enthusiast</div>
+                  <div class="testimonial-title">Un Service Impeccable et Fiable</div>
+                  <img class="quote-icon" src="assets/format_quote(1).png" />
+                  <div class="author-frame">
+                    <img class="author-avatar" src="assets/image(1).png" />
+                    <div class="author-info">
+                      <div class="author-name">James T</div>
+                      <div class="author-role">Music Enthusiast</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-card back-position position-hidden" data-testimonial="2">
+                <div class="testimonial-content">
+                  <p class="testimonial-text">
+                    "Une expérience exceptionnelle avec l'équipe d'Ambulances de Villejuif. Leur professionnalisme
+                    <br />et leur bienveillance ont transformé une situation difficile en moment de confiance."
+                  </p>
+                  <div class="testimonial-title">Une Équipe Exceptionnelle</div>
+                  <img class="quote-icon" src="assets/format_quote.png" />
+                  <div class="author-frame">
+                    <img class="author-avatar" src="assets/image.png" />
+                    <div class="author-info">
+                      <div class="author-name">Marie L</div>
+                      <div class="author-role">Patient</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="contactez-nous-2">
+            <div class="contactez-nous-2" id="contact">
               <div class="overlap-10">
                 <button class="button">
                   <img class="icon" src="assets/email.svg" />
@@ -195,42 +264,59 @@
             <div class="text-wrapper-34">©2025 Tous droits réservés</div>
             <p class="call-3">
               <span class="text-wrapper-4">&nbsp;</span>
-              <span class="text-wrapper-35">Call</span>
+              <img class="phone-icon" src="assets/phone-icon.svg" alt="Téléphone" />
               <span class="text-wrapper-4"> 01 43 96 15 15</span>
             </p>
           </div>
           <div class="group-12">
-            <div class="rectangle-15"></div>
-            <div class="rectangle-16"></div>
-            <div class="rectangle-17"></div>
+            <div class="rectangle-15" data-carousel-indicator="true" data-testimonial-index="0"></div>
+            <div class="rectangle-16" data-carousel-indicator="true" data-testimonial-index="1"></div>
+            <div class="rectangle-17" data-carousel-indicator="true" data-testimonial-index="2"></div>
           </div>
           <img class="layer-4" src="assets/layer-1-1.svg" />
         </div>
-        <div class="frame-6"><div class="text-wrapper-36">Contact</div></div>
-        <div class="frame-7"><div class="text-wrapper-37">A propos</div></div>
-        <div class="frame-8"><div class="text-wrapper-38">Nos services</div></div>
-        <div class="frame-9"><div class="text-wrapper-39">Témoignages</div></div>
-        <p class="d-couvrez-notre">DÉCOUVREZ <br />NOTRE HISTOIRE <br />ET NOTRE ENGAGEMENT ENVERS L&#39;EXCELLENCE.</p>
-        <img class="icon-2" src="assets/Vector.png" />
-        <img class="icon-3" src="assets/Vector.png" />
-        <div class="overlap-12">
-          <div class="group-13">
-            <div class="overlap-13">
-              <div class="rectangle-18"></div>
-              <div class="en-savoir-plus">En Savoir Plus</div>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section" id="a-propos">
+          <div class="about-container">
+            <div class="about-left">
+              <div class="about-title">
+                <img class="about-icon-left" src="assets/Vector.png" alt="Icône" />
+                <h2 class="about-heading">DÉCOUVREZ <br />NOTRE HISTOIRE <br />ET NOTRE <br />ENGAGEMENT ENVERS <br />L'EXCELLENCE.</h2>
+              </div>
+            </div>
+            
+            <div class="about-right">
+              <div class="about-content">
+                <div class="about-subtitle">
+                  <img class="about-icon-right" src="assets/Vector.png" alt="Icône" />
+                  <h3 class="about-subtitle-text">A-propos :</h3>
+                </div>
+                <div class="about-description">
+                  <p class="about-text">
+                    Depuis plusieurs années, Ambulances de Villejuif vous accompagne avec sérieux <br />et réactivité
+                    dans tous vos besoins de transport médicalisé. <br /><br />Notre équipe de professionnels qualifiés est à
+                    votre service 24h/24, 7j/7 pour assurer vos déplacements en toute sécurité, qu'ils soient urgents ou
+                    programmés.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="about-button-container">
+              <div class="about-button-bg">
+                <img class="about-button-pattern" src="assets/hover-cardio.svg" alt="Motif décoratif" />
+                <div class="about-button-wrapper">
+                  <div class="about-button">
+                    <div class="about-button-bg-shape"></div>
+                    <button class="about-button-text">En Savoir Plus</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="overlap-14">
-          <p class="depuis-plusieurs-ann">
-            Depuis plusieurs années, Ambulances de Villejuif vous&nbsp;&nbsp;accompagne avec sérieux <br />et réactivité
-            dans tous vos besoins de transport médicalisé. <br /><br />Notre équipe de professionnels qualifiés est à
-            votre service 24h/24, 7j/7 pour assurer vos déplacements en toute sécurité, qu’ils soient urgents ou
-            programmés.
-          </p>
-          <div class="heading-3"><div class="text-wrapper-40">A-propos :</div></div>
-        </div>
-        <img class="layer-5" src="assets/Logo.svg" />
+        </section>
+
       </div>
     </div>
   </body>

@@ -9,17 +9,245 @@
 }
 
 .ambulances-de .div {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-  width: 1920px;
-  height: 6164px;
+  width: 100%;
+  min-height: 100vh; 
+  height: auto;
   position: relative;
 }
 
+/* AVAILABILITY SECTION STYLES */
+.ambulances-de .availability-section {
+  position: absolute;
+  width: 1882px;
+  height: 659px;
+  top: 2387px;
+  left: 16px;
+}
+
+.ambulances-de .availability-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .availability-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .availability-pattern {
+  position: absolute;
+  width: 1130px;
+  height: 197px;
+  top: 462px;
+  left: 752px;
+}
+
+.ambulances-de .availability-bg-overlay {
+  position: absolute;
+  width: 1882px;
+  height: 436px;
+  top: 55px;
+  left: 0;
+  background-color: #174381;
+  border-radius: 84.34px;
+}
+
+.ambulances-de .availability-ambulance {
+  position: absolute;
+  width: 1532px;
+  height: 435px;
+  top: 56px;
+  left: 0;
+  border-radius: 84.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .availability-decor {
+  position: absolute;
+  width: 1044px;
+  height: 491px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .availability-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.ambulances-de .availability-left {
+  position: absolute;
+  width: 600px;
+  top: 200px;
+  left: 100px;
+}
+
+.ambulances-de .availability-info {
+  margin-bottom: 30px;
+}
+
+.ambulances-de .availability-title {
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0 0 20px 0;
+}
+
+.ambulances-de .availability-description {
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 21.9px;
+  letter-spacing: 0;
+  line-height: 29.5px;
+  margin: 0;
+}
+
+.ambulances-de .availability-schedule {
+  margin-bottom: 30px;
+}
+
+.ambulances-de .schedule-label {
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 61.5px;
+  letter-spacing: -1.14px;
+  line-height: 73.8px;
+  margin-bottom: 10px;
+}
+
+.ambulances-de .schedule-time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ambulances-de .time-hours {
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  color: #03aeec;
+  font-size: 111.5px;
+  letter-spacing: -3.73px;
+  line-height: 133.8px;
+}
+
+.ambulances-de .time-separator {
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  color: #ffffff;
+  font-size: 111.5px;
+  letter-spacing: -3.73px;
+  line-height: 133.8px;
+}
+
+.ambulances-de .time-days {
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  color: #03aeec;
+  font-size: 111.5px;
+  letter-spacing: -3.73px;
+  line-height: 133.8px;
+}
+
+.ambulances-de .availability-call {
+  margin-bottom: 30px;
+}
+
+.ambulances-de .call-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  background-color: #2a72dc;
+  border-radius: 68px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ambulances-de .call-text {
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 43.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+.ambulances-de .call-label {
+  font-weight: 300;
+}
+
+.ambulances-de .text-spacer {
+  font-weight: 400;
+}
+
+.ambulances-de .availability-right {
+  position: absolute;
+  width: 286px;
+  height: 71px;
+  top: 525px;
+  left: 1584px;
+}
+
+.ambulances-de .contact-button-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .contact-button {
+  position: relative;
+  width: 284px;
+  height: 71px;
+  cursor: pointer;
+}
+
+.ambulances-de .contact-button-bg {
+  position: absolute;
+  width: 284px;
+  height: 66px;
+  top: 3px;
+  left: 0;
+  background-color: #03aeec;
+  border-radius: 84.34px;
+  transform: rotate(-180deg);
+}
+
+.ambulances-de .contact-button-text {
+  position: absolute;
+  width: 180px;
+  height: 71px;
+  top: 0;
+  left: 64px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 70.6px;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Anciens styles conservés pour compatibilité */
 .ambulances-de .overlap {
   position: absolute;
   width: 1882px;
@@ -33,7 +261,7 @@
   width: 1130px;
   height: 197px;
   top: 462px;
-  left: 752px;
+  left: 707px;
 }
 
 .ambulances-de .rectangle {
@@ -69,7 +297,7 @@
   width: 286px;
   height: 71px;
   top: 525px;
-  left: 1584px;
+  left: 1536px;
 }
 
 .ambulances-de .overlap-group {
@@ -95,12 +323,13 @@
   height: 71px;
   top: 0;
   left: 64px;
-  font-family: "Plus Jakarta Sans", Helvetica;
+  font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 21.1px;
+  font-size: 19.8px;
   letter-spacing: 0;
-  line-height: 21.1px;
+  line-height: 70.6px;
+  white-space: nowrap;
 }
 
 .ambulances-de .group-2 {
@@ -215,6 +444,190 @@
   letter-spacing: 0;
 }
 
+/* STATISTICS SECTION STYLES */
+.ambulances-de .statistics-section {
+  position: absolute;
+  width: 1843px;
+  height: 995px;
+  top: 1376px;
+  left: 55px;
+}
+
+.ambulances-de .statistics-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .statistics-left {
+  position: absolute;
+  width: 713px;
+  height: 701px;
+  top: 0;
+  left: 88px;
+}
+
+.ambulances-de .statistics-star {
+  position: relative;
+  width: 712px;
+  height: 702px;
+  top: -1px;
+}
+
+.ambulances-de .star-bg-1 {
+  position: absolute;
+  width: 712px;
+  height: 468px;
+  top: 234px;
+  left: 0;
+}
+
+.ambulances-de .star-bg-2 {
+  position: absolute;
+  width: 712px;
+  height: 468px;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .stat-item {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ambulances-de .stat-top {
+  width: 186px;
+  height: 93px;
+  top: 39px;
+  left: 281px;
+}
+
+.ambulances-de .stat-left {
+  width: 179px;
+  height: 85px;
+  top: 187px;
+  left: 56px;
+}
+
+.ambulances-de .stat-center {
+  width: 144px;
+  height: 72px;
+  top: 289px;
+  left: 319px;
+}
+
+.ambulances-de .stat-right {
+  width: 208px;
+  height: 84px;
+  top: 186px;
+  left: 473px;
+}
+
+.ambulances-de .stat-bottom {
+  width: 152px;
+  height: 98px;
+  top: 575px;
+  left: 280px;
+}
+
+.ambulances-de .stat-number {
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 54.2px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.ambulances-de .stat-label {
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .stat-year {
+  font-family: "Roboto", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 70px;
+  letter-spacing: -3.50px;
+  line-height: 47.8px;
+  margin-top: 8px;
+}
+
+.ambulances-de .statistics-right {
+  position: absolute;
+  width: 921px;
+  height: 957px;
+  top: 38px;
+  left: 922px;
+}
+
+.ambulances-de .statistics-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .doctor-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 84.34px 0px 84.34px 84.34px;
+  object-fit: cover;
+}
+
+.ambulances-de .image-pattern {
+  position: absolute;
+  width: 1843px;
+  height: 360px;
+  top: 561px;
+  left: 0;
+}
+
+.ambulances-de .image-overlay {
+  position: absolute;
+  width: 919px;
+  height: 360px;
+  top: 561px;
+  left: 922px;
+  border-radius: 0px 84.34px 84.34px 84.34px;
+  background: linear-gradient(
+    1deg,
+    rgba(10, 50, 110, 1) 0%,
+    rgba(28, 84, 165, 0) 100%
+  );
+}
+
+.ambulances-de .statistics-slogan {
+  position: absolute;
+  width: 810px;
+  top: 582px;
+  left: 1000px;
+}
+
+.ambulances-de .slogan-text {
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #eeedff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 0;
+}
+
+/* Anciens styles conservés pour compatibilité */
 .ambulances-de .overlap-2 {
   position: absolute;
   width: 1843px;
@@ -469,7 +882,7 @@
   position: absolute;
   width: 810px;
   top: 582px;
-  left: 720px;
+  left: 1000px;
   font-family: "Poppins", Helvetica;
   font-weight: 700;
   color: #eeedff;
@@ -478,6 +891,153 @@
   line-height: 46.6px;
 }
 
+/* HERO SECTION STYLES */
+.ambulances-de .hero-section {
+  position: absolute;
+  width: 1882px;
+  height: 995px;
+  top: 115px;
+  left: 16px;
+}
+
+.ambulances-de .hero-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .hero-bg-overlay {
+  position: absolute;
+  width: 1882px;
+  height: 624px;
+  top: 0;
+  left: 0;
+  background-color: #012253e6;
+  border-radius: 84.34px;
+  z-index: 1;
+}
+
+.ambulances-de .hero-bg-image {
+  position: absolute;
+  width: 1882px;
+  height: 625px;
+  top: 0;
+  left: 0;
+  border-radius: 84.34px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.ambulances-de .hero-bg-pattern {
+  position: absolute;
+  width: 1044px;
+  height: 715px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.ambulances-de .hero-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.ambulances-de .hero-call-button {
+  position: absolute;
+  width: 555px;
+  height: 64px;
+  top: -3px;
+  left: 236px;
+  cursor: pointer;
+}
+
+.ambulances-de .call-button-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.ambulances-de .call-button-content {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 4.32px;
+  top: 8px;
+  left: 200px;
+}
+
+.ambulances-de .call-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.44px;
+  font-size: 39.3px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.ambulances-de .call-label {
+  font-weight: 300;
+}
+
+.ambulances-de .text-spacer {
+  font-weight: 400;
+}
+
+.ambulances-de .hero-text-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .hero-subtitle {
+  position: absolute;
+  width: 412px;
+  top: 136px;
+  left: 171px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24.5px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+}
+
+.ambulances-de .hero-title {
+  position: absolute;
+  width: 714px;
+  top: 204px;
+  left: 158px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 68.6px;
+  letter-spacing: 0.1px;
+  line-height: 66.5px;
+  margin: 0;
+}
+
+.ambulances-de .hero-description {
+  position: absolute;
+  width: 620px;
+  top: 377px;
+  left: 158px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #03aeec;
+  font-size: 32.8px;
+  letter-spacing: -0.48px;
+  line-height: 48.2px;
+  margin: 0;
+}
+
+/* Anciens styles conservés pour compatibilité */
 .ambulances-de .overlap-4 {
   position: absolute;
   width: 1882px;
@@ -589,62 +1149,49 @@
 .ambulances-de .overlap-5 {
   position: absolute;
   width: 1882px;
-  height: 2616px;
-  top: 3622px;
+  height: 800px;
+  top: 3060px;
   left: 16px;
 }
 
 .ambulances-de .overlap-6 {
   position: absolute;
   width: 1882px;
-  height: 2616px;
+  height: 800px;
   top: 0;
   left: 0;
 }
 
 .ambulances-de .rectangle-10 {
   position: absolute;
-  width: 912px;
-  height: 1878px;
-  top: 537px;
-  left: 485px;
+  width: 1840px;
+  height: 800px;
+  top: 880px;
+  left: 0px;
   border-radius: 84.34px;
-  transform: rotate(90deg);
-  background: linear-gradient(
-    96deg,
-    rgba(5, 44, 100, 1) 0%,
-    rgba(42, 115, 221, 0) 100%
-  );
+  transform: rotate(0deg);
 }
 
 .ambulances-de .rectangle-11 {
   position: absolute;
-  width: 454px;
-  height: 1877px;
-  top: 1152px;
-  left: 716px;
+  width: 1848px;
+  height: 457px;
+  top: 1522px;
+  left: 0px;
   border-radius: 84.34px;
-  transform: rotate(90deg);
-  background: linear-gradient(
-    95deg,
-    rgba(5, 44, 100, 1) 0%,
-    rgba(42, 115, 221, 0) 100%
-  );
+  transform: rotate(0deg);
+  object-fit: cover;
 }
 
 .ambulances-de .rectangle-12 {
   position: absolute;
-  width: 718px;
-  height: 788px;
-  top: 1863px;
+  width: 747px;
+  height: 598px;
+  top: 1562px;
   left: 1092px;
   border-radius: 45.34px;
-  transform: rotate(90deg);
-  background: linear-gradient(
-    96deg,
-    rgba(3, 174, 236, 1) 0%,
-    rgba(42, 115, 221, 0) 100%
-  );
+  transform: rotate(0deg);
+  object-fit: cover;
 }
 
 .ambulances-de .nos-services {
@@ -665,7 +1212,7 @@
   position: absolute;
   width: 399px;
   height: 108px;
-  top: 1208px;
+  top: 954px;
   left: 167px;
   font-family: "Gilroy-SemiBold", Helvetica;
   font-weight: 600;
@@ -679,31 +1226,117 @@
   position: absolute;
   width: 1623px;
   height: 619px;
-  top: 163px;
+  top: 233px;
   left: 151px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.ambulances-de .overlap-7 {
-  position: absolute;
-  width: 349px;
-  height: 507px;
-  top: 112px;
-  left: 381px;
-  background-color: #3367b2;
+/* Styles de base pour toutes les cartes */
+.ambulances-de .service-card {
+  position: relative;
+  /*background-color: #3367b2; */
   border-radius: 0px 19.34px 19.34px 19.34px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  flex: 1;
+  min-width: 349px;
+  max-width: 349px;
+  height: 507px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.ambulances-de .layer {
+/* Carte agrandie (style uniforme pour toutes les cartes) */
+.ambulances-de .service-card.active {
+  flex: 2.5;
+  max-width: 902px;
+  height: 587px;
+  /*background-color: #f8f8f8;*/
+  box-shadow: 10px 10px 40px #00000033;
+  z-index: 10;
+  transform: translateX(0);
+}
+
+/* Cartes réduites */
+.ambulances-de .service-card:not(.active) {
+  flex: 1;
+  max-width: 349px;
+  height: 507px;
+  background-color: #3367b2;
+  z-index: 1;
+  transform: translateX(0);
+}
+
+/* Contenu de service (rectangle blanc) - présent sur toutes les cartes */
+.ambulances-de .service-card .service-content {
+  position: absolute;
+  width: 368px;
+  height: 540px;
+  top: 0px;
+  left: 0;
+  background-color: #f8f8f8;
+  border-radius: 0px 19.34px 29.34px 19.34px;
+  box-shadow: 10px 10px 40px #00000033;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.ambulances-de .service-card.active .service-content {
+  opacity: 1;
+}
+
+/* Images de service - style uniforme */
+.ambulances-de .service-card .service-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0px 19.34px 19.34px 19.34px;
+  object-fit: cover;
+  z-index: 0;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+}
+
+.ambulances-de .service-card.active .service-image {
+  width: 681px;
+  height: 587px;
+  left: 221px;
+  border-radius: 0px 19.34px 29.34px 19.34px;
+  opacity: 1;
+  display: block;
+  visibility: visible;
+}
+
+/* Icônes des cartes */
+.ambulances-de .service-card .layer-2 {
   position: absolute;
   width: 181px;
   height: 171px;
   top: 0;
   left: 0;
+  z-index: 2;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ambulances-de .text-wrapper-21 {
+.ambulances-de .service-card.active .layer-2 {
+  top: 0px;
+  left: 0;
+}
+
+/* Textes des cartes - style uniforme */
+.ambulances-de .service-card .text-wrapper-21,
+.ambulances-de .service-card .text-wrapper-23,
+.ambulances-de .service-card .text-wrapper-25 {
   position: absolute;
-  width: 237px;
+  width: 228px;
   top: 200px;
   left: 35px;
   font-family: "Plus Jakarta Sans", Helvetica;
@@ -712,11 +1345,23 @@
   font-size: 30.9px;
   letter-spacing: 0;
   line-height: 37.1px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
 }
 
-.ambulances-de .text-wrapper-22 {
+.ambulances-de .service-card.active .text-wrapper-21,
+.ambulances-de .service-card.active .text-wrapper-23,
+.ambulances-de .service-card.active .text-wrapper-25 {
+  color: #1b1b1b;
+  top: 247px;
+  left: 43px;
+}
+
+.ambulances-de .service-card .text-wrapper-22,
+.ambulances-de .service-card .text-wrapper-24,
+.ambulances-de .service-card .text-wrapper-26 {
   position: absolute;
-  width: 281px;
+  width: 298px;
   top: 324px;
   left: 35px;
   font-family: "Poppins", Helvetica;
@@ -725,79 +1370,84 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 28.8px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
 }
 
-.ambulances-de .overlap-8 {
-  position: absolute;
-  width: 902px;
-  height: 587px;
-  top: -30px;
-  left: 759px;
-}
-
-.ambulances-de .rectangle-13 {
-  position: absolute;
-  width: 681px;
-  height: 587px;
-  top: 0;
-  left: 221px;
-  border-radius: 0px 19.34px 29.34px 19.34px;
-  object-fit: cover;
-}
-
-.ambulances-de .rectangle-14 {
-  position: absolute;
-  width: 368px;
-  height: 507px;
-  top: 30px;
-  left: 0;
-  background-color: #f8f8f8;
-  border-radius: 0px 19.34px 29.34px 19.34px;
-  box-shadow: 10px 10px 40px #00000033;
-}
-
-.ambulances-de .layer-2 {
-  position: absolute;
-  width: 181px;
-  height: 171px;
-  top: 30px;
-  left: 0;
-}
-
-.ambulances-de .text-wrapper-23 {
-  position: absolute;
-  width: 228px;
-  top: 247px;
-  left: 43px;
-  font-family: "Plus Jakarta Sans", Helvetica;
-  font-weight: 700;
-  color: #1b1b1b;
-  font-size: 30.9px;
-  letter-spacing: 0;
-  line-height: 37.1px;
-}
-
-.ambulances-de .text-wrapper-24 {
-  position: absolute;
-  width: 298px;
+.ambulances-de .service-card.active .text-wrapper-22,
+.ambulances-de .service-card.active .text-wrapper-24,
+.ambulances-de .service-card.active .text-wrapper-26 {
+  color: #707070;
   top: 342px;
   left: 43px;
-  font-family: "Poppins", Helvetica;
-  font-weight: 400;
-  color: #707070;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 28.8px;
 }
 
-.ambulances-de .overlap-9 {
-  position: absolute;
-  width: 353px;
-  height: 507px;
-  top: 112px;
-  left: 0;
-  background-color: #3367b2;
+/* Styles spécifiques pour overlap-7 */
+.ambulances-de .overlap-7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background-color: #3367b2;*/
   border-radius: 0px 19.34px 19.34px 19.34px;
+  overflow: hidden;
+}
+
+/* Styles spécifiques pour overlap-8 */
+.ambulances-de .overlap-8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background-color: #3367b2;*/
+  border-radius: 0px 19.34px 19.34px 19.34px;
+  overflow: hidden;
+}
+/*
+.ambulances-de .overlap-8.active {
+  background-color: #f8f8f8;
+}*/
+
+/* Styles spécifiques pour overlap-9 */
+.ambulances-de .overlap-9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background-color: #3367b2;*/
+  border-radius: 0px 19.34px 19.34px 19.34px;
+  overflow: hidden;
+}
+
+.ambulances-de .overlap-9 .service-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0px 19.34px 19.34px 19.34px;
+  object-fit: cover;
+  z-index: 0;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ambulances-de .overlap-9.active .service-image {
+  width: 681px;
+  height: 587px;
+  left: 221px;
+  border-radius: 0px 19.34px 29.34px 19.34px;
+}
+
+.ambulances-de .overlap-9 .mask-group {
+  position: absolute;
+  width: 189px;
+  height: 190px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ambulances-de .overlap-9 .text-wrapper-25,
+.ambulances-de .overlap-9 .text-wrapper-26 {
+  z-index: 2;
+  position: relative;
 }
 
 .ambulances-de .mask-group {
@@ -819,6 +1469,15 @@
   font-size: 30.9px;
   letter-spacing: 0;
   line-height: 37.1px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
+}
+
+.ambulances-de .overlap-9.active .text-wrapper-25 {
+  color: #1b1b1b;
+  top: 247px;
+  left: 43px;
+  width: 228px;
 }
 
 .ambulances-de .text-wrapper-26 {
@@ -832,6 +1491,15 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: 28.8px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 2;
+}
+
+.ambulances-de .overlap-9.active .text-wrapper-26 {
+  color: #707070;
+  top: 342px;
+  left: 43px;
+  width: 298px;
 }
 
 .ambulances-de .subtract-2 {
@@ -846,38 +1514,106 @@
   position: absolute;
   width: 183px;
   height: 21px;
-  top: 761px;
+  top: 800px;
   left: 1571px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .ambulances-de .rectangle-15 {
-  position: absolute;
+  position: relative;
   width: 131px;
   height: 21px;
-  top: 0;
-  left: 0;
   background-color: #ffffff;
   border-radius: 19.09px;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  will-change: width, transform, background, box-shadow;
+  flex-shrink: 0;
 }
 
 .ambulances-de .rectangle-16 {
-  position: absolute;
+  position: relative;
   width: 25px;
   height: 21px;
-  top: 0;
-  left: 136px;
   background-color: #ffffff;
   border-radius: 19.09px;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  will-change: width, transform, background, box-shadow;
+  flex-shrink: 0;
 }
 
 .ambulances-de .rectangle-17 {
-  position: absolute;
+  position: relative;
   width: 17px;
   height: 21px;
-  top: 0;
-  left: 166px;
-  background-color: #03aeec;
+  background-color: #ffffff;
   border-radius: 19.09px;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  will-change: width, transform, background, box-shadow;
+  flex-shrink: 0;
+}
+
+/* Styles pour les indicateurs actifs */
+.ambulances-de .indicator.active {
+  background-color: #03aeec !important;
+  transform: scale(1.2) !important;
+  box-shadow: 0 4px 12px rgba(3, 174, 236, 0.4);
+  border: 2px solid #03aeec;
+}
+
+/* Styles pour les indicateurs inactifs */
+.ambulances-de .indicator:not(.active) {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  transform: scale(0.95) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  width: 25px !important;
+}
+
+/* Styles de base pour tous les indicateurs */
+.ambulances-de .indicator {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, background-color, box-shadow;
+  backdrop-filter: blur(5px);
+}
+
+/* Styles spécifiques pour chaque indicateur quand actif */
+.ambulances-de .indicator.active {
+  background: linear-gradient(135deg, #03aeec, #0288d1) !important;
+  box-shadow: 0 8px 25px rgba(3, 174, 236, 0.4) !important;
+  border: 2px solid #03aeec !important;
+  z-index: 10;
+}
+
+.ambulances-de .rectangle-15.active {
+  width: 131px !important;
+  transform: scale(1.1) !important;
+}
+
+.ambulances-de .rectangle-16.active {
+  width: 131px !important;
+  transform: scale(1.1) !important;
+}
+
+.ambulances-de .rectangle-17.active {
+  width: 131px !important;
+  transform: scale(1.1) !important;
+}
+
+.ambulances-de .indicator:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(3, 174, 236, 0.3);
+  background-color: rgba(3, 174, 236, 0.1) !important;
 }
 
 .ambulances-de .read-more {
@@ -898,7 +1634,7 @@
   position: absolute;
   width: 1242px;
   height: 386px;
-  top: 1094px;
+  top: 938px;
   left: 577px;
 }
 
@@ -920,16 +1656,14 @@
   left: 56px;
 }
 
-.ambulances-de .l-quipe-d-ambulances {
-  position: absolute;
+.ambulances-de .l-quipe-d-ambulances {position: absolute;
   width: 604px;
   top: 75px;
   left: -1px;
-  -webkit-text-stroke: 0.97px #1c1c1c;
   font-family: "Poppins", Helvetica;
   font-weight: 300;
+  font-size: 17.42px;
   color: #6480a9;
-  font-size: 17.4px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -1028,11 +1762,10 @@
   width: 455px;
   top: 51px;
   left: -1px;
-  -webkit-text-stroke: 0.73px #1c1c1c;
   font-family: "Poppins", Helvetica;
   font-weight: 300;
+  font-size: 17.42px;
   color: #6480a9;
-  font-size: 13.1px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -1048,7 +1781,6 @@
   font-size: 19px;
   letter-spacing: 0;
   line-height: normal;
-  
 }
 
 .ambulances-de .format-quote-2 {
@@ -1113,7 +1845,7 @@
   position: absolute;
   width: 586px;
   height: 178px;
-  top: 1970px;
+  top: 1600px;
   left: 512px;
 }
 
@@ -1221,7 +1953,7 @@
   position: absolute;
   width: 595px;
   height: 158px;
-  top: 1964px;
+  top: 1600px;
   left: 1137px;
   font-family: "Plus Jakarta Sans", Helvetica;
   font-weight: 700;
@@ -1235,7 +1967,7 @@
   position: absolute;
   width: 648px;
   height: 90px;
-  top: 2167px;
+  top: 1810px;
   left: 1123px;
 }
 
@@ -1243,13 +1975,13 @@
   position: absolute;
   width: 80px;
   height: 85px;
-  top: 1974px;
+  top: 1600px;
   left: 1692px;
 }
 
 .ambulances-de .text-wrapper-34 {
   position: absolute;
-  top: 2341px;
+  top: 2009px;
   left: 822px;
   font-family: "Sharp Sans No1 Book-Regular", Helvetica;
   font-weight: 400;
@@ -1263,7 +1995,7 @@
 .ambulances-de .call-3 {
   position: absolute;
   height: 68px;
-  top: 2175px;
+  top: 1820px;
   left: 1142px;
   font-size: 54.3px;
   font-family: "Outfit", Helvetica;
@@ -1285,15 +2017,60 @@
   position: absolute;
   width: 183px;
   height: 21px;
-  top: 1539px;
+  top: 1386px;
   left: 1572px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Styles spécifiques pour les rectangles du groupe-12 (carrousel des témoignages) */
+.ambulances-de .group-12 .rectangle-15,
+.ambulances-de .group-12 .rectangle-16,
+.ambulances-de .group-12 .rectangle-17 {
+  position: relative;
+  width: 131px;
+  height: 21px;
+  background-color: #ffffff;
+  border-radius: 19.09px;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  will-change: width, transform, background, box-shadow;
+  flex-shrink: 0;
+}
+
+/* Styles pour les rectangles inactifs du groupe-12 */
+.ambulances-de .group-12 .rectangle-16,
+.ambulances-de .group-12 .rectangle-17 {
+  width: 25px;
+}
+
+/* Styles pour les rectangles actifs du groupe-12 */
+.ambulances-de .group-12 .rectangle-15.active,
+.ambulances-de .group-12 .rectangle-16.active {
+  width: 131px !important;
+  transform: scale(1.1) !important;
+  background: linear-gradient(135deg, #3367b2, #03aeec) !important;
+  border: 2px solid #3367b2 !important;
+  box-shadow: 0 8px 25px rgba(51, 103, 178, 0.4) !important;
+}
+
+/* Styles pour les rectangles inactifs du groupe-12 */
+.ambulances-de .group-12 .rectangle-15:not(.active),
+.ambulances-de .group-12 .rectangle-16:not(.active) {
+  width: 25px !important;
+  background-color: #ffffff !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  transform: scale(1) !important;
 }
 
 .ambulances-de .layer-4 {
   position: absolute;
   width: 348px;
   height: 94px;
-  top: 1981px;
+  top: 1620px;
   left: 107px;
 }
 
@@ -1339,7 +2116,7 @@
   margin-top: -4.40px;
   font-family: "Outfit", Helvetica;
   font-weight: 600;
-  color: #3367b2;
+  color: #03aeec;
   font-size: 23.5px;
   letter-spacing: 0;
   line-height: normal;
@@ -1360,7 +2137,7 @@
   width: fit-content;
   margin-top: -4.40px;
   font-family: "Outfit", Helvetica;
-  font-weight: 400;
+  font-weight: 600;
   color: #03aeec;
   font-size: 23.5px;
   letter-spacing: 0;
@@ -1381,13 +2158,204 @@
   width: fit-content;
   margin-top: -1.47px;
   font-family: "Outfit", Helvetica;
-  font-weight: 400;
+  font-weight: 600;
   color: #03aeec;
   font-size: 23.5px;
   letter-spacing: 0;
   line-height: normal;
 }
 
+/* ABOUT SECTION STYLES */
+.ambulances-de .about-section {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 900px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.ambulances-de .about-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .about-left {
+  position: absolute;
+  width: 590px;
+  top: 33px;
+  left: 208px;
+}
+
+.ambulances-de .about-title {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.ambulances-de .about-icon-left {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 3px;
+  left: -87px;
+}
+
+.ambulances-de .about-heading {
+  position: relative;
+  width: 100%;
+  font-family: "Sharp Sans No1 Bold-Regular", Helvetica;
+  font-weight: 400;
+  color: #797989;
+  font-size: 51px;
+  letter-spacing: 0;
+  line-height: 55.5px;
+  margin: 0;
+}
+
+.ambulances-de .about-right {
+  position: absolute;
+  width: 823px;
+  height: 249px;
+  top: 0;
+  left: 996px;
+}
+
+.ambulances-de .about-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ambulances-de .about-subtitle {
+  position: absolute;
+  width: 271px;
+  height: 111px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.ambulances-de .about-icon-right {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 0;
+  left: -67px;
+}
+
+.ambulances-de .about-subtitle-text {
+  position: absolute;
+  width: 302px;
+  height: 111px;
+  top: -1px;
+  left: 0;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #3367b2;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 55.2px;
+  margin: 0;
+}
+
+.ambulances-de .about-description {
+  position: absolute;
+  width: 823px;
+  height: 140px;
+  top: 109px;
+  left: 0;
+}
+
+.ambulances-de .about-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #434343;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin: 0;
+}
+
+.ambulances-de .about-button-container {
+  position: absolute;
+  width: 1130px;
+  height: 197px;
+  top: 270px;
+  left: 728px;
+}
+
+.ambulances-de .about-button-bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/hover-cardio.svg);
+  background-size: 100% 100%;
+}
+
+.ambulances-de .about-button-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.ambulances-de .about-button-wrapper {
+  position: absolute;
+  width: 250px;
+  height: 71px;
+  top: 63px;
+  left: 858px;
+}
+
+.ambulances-de .about-button {
+  position: relative;
+  width: 248px;
+  height: 71px;
+  cursor: pointer;
+}
+
+.ambulances-de .about-button-bg-shape {
+  position: absolute;
+  width: 248px;
+  height: 48px;
+  top: 11px;
+  left: 0;
+  background-color: #03aeec;
+  border-radius: 84.34px;
+  transform: rotate(-180deg);
+}
+
+.ambulances-de .about-button-text {
+  position: absolute;
+  width: 144px;
+  height: 71px;
+  top: 0;
+  left: 52px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 19.8px;
+  letter-spacing: 0;
+  line-height: 70.6px;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Anciens styles conservés pour compatibilité */
 .ambulances-de .d-couvrez-notre {
   position: absolute;
   width: 590px;
@@ -1511,10 +2479,584 @@
   line-height: 55.2px;
 }
 
+/* HEADER SECTION STYLES */
+.ambulances-de .header-section {
+  position: absolute;
+  width: 100%;
+  height: 176px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+.ambulances-de .header-container {
+  position: relative;
+  width: 150%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 174px;
+  box-sizing: border-box;
+}
+
+.ambulances-de .logo-container {
+  position: relative;
+  width: 473px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+}
+
+.ambulances-de .logo {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.ambulances-de .navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ambulances-de .nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 14.68px;
+  padding: 14.68px;
+}
+
+.ambulances-de .nav-item.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 37px;
+  background-color: #2a72dc;
+  border-radius: 68px;
+}
+
+.ambulances-de .nav-text {
+  position: relative;
+  width: fit-content;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #03aeec;
+  font-size: 23.5px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ambulances-de .contact-btn .nav-text {
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
 .ambulances-de .layer-5 {
   position: absolute;
   width: 473px;
   height: 128px;
   top: 24px;
   left: 174px;
+}
+
+
+/* === FIX HAUTEUR SANS SCALE (ne change pas ton design) === */
+html, body { margin: 0; padding: 0; overflow-x: hidden; }
+
+.ambulances-de {
+  /* on neutralise le grid pour éviter les conflits de hauteur */
+  display: block !important;
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+.ambulances-de .div {
+  /* parent de référence pour tes éléments en absolute */
+  position: relative;
+  width: 100%;
+  /* garde ton min-height si tu veux (tu l'as déjà plus haut) */
+  overflow: visible; /* important: on veut pouvoir mesurer tout le contenu */
+}
+
+/* === STYLES POUR LES POSITIONS DES CARTES DE TÉMOIGNAGES === */
+.testimonial-card {
+  position: absolute;
+  background-color: #ffffff;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity, width, height, left, top;
+}
+
+/* Position AVANT (grande carte - style groupe-8) */
+.testimonial-card.front-position {
+  width: 685px;
+  height: 386px;
+  border-radius: 58.07px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.testimonial-card.front-position .testimonial-content {
+  position: relative;
+  width: 608px;
+  height: 291px;
+  top: 49px;
+  left: 56px;
+}
+
+.testimonial-card.front-position .testimonial-text {
+  position: absolute;
+  width: 604px;
+  top: 75px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-size: 17.42px;
+  color: #6480a9;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.front-position .testimonial-title {
+  position: absolute;
+  width: 389px;
+  top: 8px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #3367b2;
+  font-size: 25.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.front-position .quote-icon {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 536px;
+}
+
+.testimonial-card.front-position .author-frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 19.36px;
+  position: absolute;
+  top: 238px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 58.07px;
+}
+
+.testimonial-card.front-position .author-avatar {
+  position: relative;
+  width: 53.24px;
+  height: 53.24px;
+  object-fit: cover;
+}
+
+.testimonial-card.front-position .author-info {
+  display: flex;
+  flex-direction: column;
+  width: 128.73px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.testimonial-card.front-position .author-name {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.97px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #151515;
+  font-size: 19.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.front-position .author-role {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #03aeec;
+  font-size: 15.5px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Position ARRIÈRE (petite carte - style groupe-10) */
+.testimonial-card.back-position {
+  width: 517px;
+  height: 291px;
+  border-radius: 43.78px;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.testimonial-card.back-position .testimonial-content {
+  position: relative;
+  width: 459px;
+  height: 220px;
+  top: 37px;
+  left: 42px;
+}
+
+.testimonial-card.back-position .testimonial-text {
+  position: absolute;
+  width: 455px;
+  top: 51px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-size: 17.42px;
+  color: #6480a9;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.back-position .testimonial-title {
+  position: absolute;
+  width: 346px;
+  top: 6px;
+  left: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #3367b2;
+  font-size: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.back-position .quote-icon {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 0;
+  left: 405px;
+}
+
+.testimonial-card.back-position .author-frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 14.59px;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 43.78px;
+}
+
+.testimonial-card.back-position .author-avatar {
+  position: relative;
+  width: 40.13px;
+  height: 40.13px;
+  object-fit: cover;
+}
+
+.testimonial-card.back-position .author-info {
+  display: flex;
+  flex-direction: column;
+  width: 97.05px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.testimonial-card.back-position .author-name {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.73px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #151515;
+  font-size: 14.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial-card.back-position .author-role {
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #03aeec;
+  font-size: 11.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* Positions horizontales fixes */
+.testimonial-card.position-left {
+  left: 0;
+  top: 0;
+}
+
+.testimonial-card.position-right {
+  left: 725px;
+  top: 48px;
+}
+
+/* Position cachée pour les cartes supplémentaires */
+.testimonial-card.position-hidden {
+  left: 1450px;
+  top: 96px;
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Animation de transition */
+.testimonial-card.transitioning {
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Effet de brillance - DÉSACTIVÉ */
+.testimonial-card::before {
+  /* content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  transition: left 0.8s ease;
+  pointer-events: none;
+  z-index: 1;
+  border-radius: inherit; */
+}
+
+.testimonial-card.shine::before {
+  /* left: 100%; */
+}
+
+/* Effet de rotation subtile - DÉSACTIVÉ */
+.testimonial-card.rotating {
+  /* animation: testimonialRotate 0.8s ease-in-out; */
+}
+
+/* Hover effects - DÉSACTIVÉ */
+.testimonial-card:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card:hover .quote-icon {
+  /* transform: scale(1.1) rotate(5deg); */
+}
+
+.testimonial-card:hover .author-avatar {
+  /* transform: scale(1.05); */
+}
+
+.testimonial-card:hover .testimonial-text {
+  color: #3367b2;
+}
+
+/* Animation d'entrée pour les témoignages - DÉSACTIVÉE */
+.testimonial-card {
+  /* animation: testimonialFadeIn 1s ease-out; */
+}
+
+/* === STYLES POUR LES INDICATEURS DE CARROUSEL === */
+.carousel-indicator {
+  position: relative;
+  width: 131px;
+  height: 21px;
+  background-color: #e0e0e0;
+  border-radius: 10.5px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, background, border, box-shadow;
+}
+
+.carousel-indicator:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 12px rgba(51, 103, 178, 0.4);
+}
+
+.carousel-indicator.active {
+  background-color: #3367b2;
+  box-shadow: 0 2px 8px rgba(51, 103, 178, 0.3);
+}
+
+/* Animation de pulsation pour l'indicateur actif */
+@keyframes carouselIndicatorPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.carousel-indicator.active {
+  animation: carouselIndicatorPulse 2s infinite;
+}
+
+/* Amélioration des styles des cartes de témoignages */
+.testimonial-card {
+  cursor: pointer;
+  overflow: hidden;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.testimonial-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Transition fluide pour tous les éléments internes - DÉSACTIVÉE */
+.testimonial-card .testimonial-content,
+.testimonial-card .testimonial-text,
+.testimonial-card .testimonial-title,
+.testimonial-card .quote-icon,
+.testimonial-card .author-frame,
+.testimonial-card .author-avatar,
+.testimonial-card .author-info,
+.testimonial-card .author-name,
+.testimonial-card .author-role {
+  /* transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+/* Effet de profondeur */
+.testimonial-card.front-position {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card.back-position {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* === STYLES POUR LE DÉFILEMENT VERS RECTANGLE-10 === */
+#rectangle-10 {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, filter;
+}
+
+#rectangle-10:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+
+/* Animation de pulsation pour attirer l'attention */
+@keyframes rectangle10Pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.03);
+    filter: brightness(1.15);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+#rectangle-10.scroll-target {
+  animation: rectangle10Pulse 1s ease-in-out;
+}
+
+/* Amélioration de l'accessibilité pour le défilement */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style pour les liens de navigation actifs */
+.nav-link.active {
+  color: #03aeec !important;
+  font-weight: 700;
+}
+
+/* Effet de focus pour l'accessibilité */
+.nav-link:focus {
+  outline: 2px solid #03aeec;
+  outline-offset: 2px;
+}
+
+/* === STYLES POUR L'ICÔNE DE TÉLÉPHONE === */
+.phone-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 4px;
+  filter: brightness(0) invert(1); /* Rend l'icône blanche */
+  transition: all 0.3s ease;
+}
+
+/* Style spécifique pour l'icône dans le bouton d'appel principal */
+.hero-call-button .phone-icon {
+  width: 35px;
+  height: 45px;
+  margin: 0 6px;
+}
+
+/* Style pour l'icône dans la section disponibilité */
+.call-wrapper .phone-icon {
+  width: 35px;
+  height: 50px;
+  margin: 0 3px;
+}
+
+/* Style pour l'icône dans la section d'urgence */
+.call-3 .phone-icon {
+  width: 40px;
+  height: 60px;
+  margin: 0 5px;
+}
+
+/* Effet de survol pour l'icône */
+.phone-icon:hover {
+  transform: scale(1.1);
+  filter: brightness(0) invert(1) drop-shadow(0 0 3px rgba(255, 255, 255, 0.5));
+}
+
+/* Animation de pulsation pour attirer l'attention */
+@keyframes phonePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.phone-icon.pulse {
+  animation: phonePulse 1s ease-in-out;
+}
+
+/* Ajustement pour l'alignement vertical */
+.call .phone-icon,
+.call-text .phone-icon,
+.call-3 .phone-icon {
+  display: inline-block;
+  vertical-align: text-bottom;
 }
